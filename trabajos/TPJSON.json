@@ -1,0 +1,158 @@
+
+{
+    "ShopName": "Pokémart",
+    "ProductCategories": 
+[
+    {
+        "ID": 1, 
+        "Name": "Balls",
+        "Tiers": 
+                 [
+                { 
+                    "ID": 1,
+                    "Name": "Poké Ball",
+                    "Price": 200,
+                    "BadgeRequirement": "N/A"
+
+                },
+                {
+                    "ID": 2,
+                    "Name": "Great Ball",
+                    "Price": 600,
+                    "BadgeRequirement": 1
+                },
+                {
+                    "ID": 3,
+                    "Name": "Ultra Ball",
+                    "Price": 1200,
+                    "BadgeRequirement": 5
+                    
+                }
+                 ]
+        
+    },
+    {
+        "ID": 2, 
+        "Name": "Healing",
+        "Tiers": [
+                { 
+                    "ID": 1,
+                    "Name": "Potion",
+                    "Price": 300,
+                    "BadgeRequirement": 0,
+                    "Effect": "Restores 20 HP"
+                },
+                {
+                    "ID": 2,
+                    "Name": "Super Potion",
+                    "Price": 700,
+                    "BadgeRequirement": 1,
+                    "Effect": "Restores 50 HP"
+                },
+                {
+                    "ID": 3,
+                    "Name": "Hyper Potion",
+                    "Price": 1200,
+                    "BadgeRequirement": 5,
+                    "Effect": "Restores 200 HP"
+                },
+                {
+                    "ID": 4,
+                    "Name": "Max Potion",
+                    "Price": 2500,
+                    "BadgeRequirement": 7,
+                    "Effect": "Restores full HP"
+                }
+                ]
+    },
+    {
+        "ID": 3, 
+        "Name": "Status",
+        "Cures":[
+            {
+                "ID": 1,
+                "Name": "Antidote",
+                "Price": 100,
+                "BadgeRequirement": 0,
+                "Effect": "Cures poison"
+            },
+            {
+                "ID": 2,
+                "Name": "Paralyze Heal",
+                "Price": 200,
+                "BadgeRequirement": 0,
+                "Effect": "Cures paralysis"
+                
+            },
+            {
+                "ID": 3,
+                "Name": "Awakening",
+                "Price": 250,
+                "BadgeRequirement": 1,
+                "Effect": "Cures sleep"
+            },
+            {
+                "ID": 4,
+                "Name": "Burn Heal",
+                "Price": 250,
+                "BadgeRequirement": 1,
+                "Effect": "Cures burn"
+            },
+            {
+                "ID": 5,
+                "Name": "Ice Heal",
+                "Price": 250,
+                "BadgeRequirement": 1,
+                "Effect": "Cures freezing"
+            },
+            {
+                "ID": 6,
+                "Name": "Full Heal",
+                "Price": 600,
+                "BadgeRequirement": 5,
+                "Effect": "Cures all Status Ailments"
+            }
+        ]
+    },
+    {
+        "ID": 4,
+        "Name": "Utility",
+        "Tools": [
+            {
+                "ID": 1,
+                "Name": "Escape Rope",
+                "Price": 550,
+                "BadgeRequirement": 1,
+                "Effect": "Escape from caves"
+            }
+        ],
+        "Repelent":[
+            {
+                "ID": 1,
+                "Name": "Repel",
+                "Price": 350,
+                "BadgeRequirement": 1,
+                "Effect": "Repels wild Pokémon for 100 steps"
+            },
+            {
+                "ID": 2,
+                "Name": "Super Repel",
+                "Price": 500,
+                "BadgeRequirement": 3,
+                "Effect": "Repels wild Pokémon for 200 steps"
+            },
+            {
+                "ID": 3,
+                "Name": "Max Repel",
+                "Price": 700,
+                "BadgeRequirement": 7,
+                "Effect": "Repels wild Pokémon for 250 steps"
+            }
+        ]
+    }
+
+
+
+               
+]
+}
