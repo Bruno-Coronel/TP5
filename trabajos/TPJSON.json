@@ -6,13 +6,12 @@
     {
         "ID": 1, 
         "Name": "Balls",
-        "Tiers": 
-                 [
+        "Tiers": [
                 { 
                     "ID": 1,
                     "Name": "Poké Ball",
                     "Price": 200,
-                    "BadgeRequirement": "N/A"
+                    "BadgeRequirement": 0
 
                 },
                 {
